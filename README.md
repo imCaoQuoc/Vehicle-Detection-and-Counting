@@ -19,10 +19,12 @@ I run this project on Python 3.9.7
 pip install -r requirements.txt
 ```
 
-* Run demo:
+* Link demo:
 ```link demo
 https://vehicle-detection-and-counting.streamlit.app/
 ```
+
+* Run demo:
 
 ```python
 streamlit run demo.py --server.maxUploadSize=500
