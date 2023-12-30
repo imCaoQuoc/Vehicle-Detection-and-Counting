@@ -87,6 +87,6 @@ if __name__ == '__main__':
         status.markdown('<font size= "4"> **Status:** Finished ! </font>', unsafe_allow_html=True)
         # end_noti = st.markdown('<center style="color: blue"> FINISH </center>',  unsafe_allow_html=True)
 
-    # if reset_button:
-        # reset()
-    #     st.markdown('<h3 style="color: blue"> Reseted ID </h3>', unsafe_allow_html=True)
+    if reset_button:
+        reset()
+        st.markdown('<h3 style="color: blue"> Reseted ID </h3>', unsafe_allow_html=True)
