@@ -20,6 +20,10 @@ pip install -r requirements.txt
 ```
 
 * Run demo:
+```link demo
+https://vehicle-detection-and-counting.streamlit.app/
+```
+
 ```python
 streamlit run demo.py --server.maxUploadSize=500
 ```
