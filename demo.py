@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 
     track_button = st.sidebar.button('START')
-    # reset_button = st.sidebar.button('RESET ID')
+    reset_button = st.sidebar.button('RESET ID')
     if track_button:
         # reset ID and count from 0
         reset()
